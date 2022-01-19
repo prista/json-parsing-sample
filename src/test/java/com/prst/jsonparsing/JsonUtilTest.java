@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class JsonUtilTest {
 
-    private String jsonString = "{ \"title\": \"Parsing Json in Java\" }";
+    private String jsonString = "{ \"title\": \"Parsing Json in Java\", \"author\": \"Prista\" }";
 
     @Test
     void parse() throws JsonProcessingException {
